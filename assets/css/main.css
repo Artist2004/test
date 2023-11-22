@@ -238,7 +238,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #0052b6;
+  background: #40abf8;;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -363,7 +363,7 @@ section {
     font-family: var(--font-secondary);
     font-size: 16px;
     font-weight: 600;
-    color:  #250083;
+    color:  #40abf8;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
