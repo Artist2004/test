@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #250083;
+  --color-primary: #002e83;
   --color-secondary: #40abf8;
 }
 
@@ -363,7 +363,7 @@ section {
     font-family: var(--font-secondary);
     font-size: 16px;
     font-weight: 600;
-    color:  #0052b6;
+    color:  #250083;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -428,7 +428,7 @@ section {
     font-size: 15px;
     text-transform: none;
     font-weight: 600;
-    color:  #0052b6;
+    color:  #250083;
   }
 
   .navbar .dropdown ul a i {
@@ -499,7 +499,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background:  #0052b6;
+    background: #250083;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -545,7 +545,7 @@ section {
   .navbar .getstarted:hover,
   .navbar .getstarted:focus:hover {
     color: #fff;
-    background: rgba(0, 131, 116, 0.8);
+    background:   #250083;
   }
 
   .navbar .dropdown ul,
@@ -598,7 +598,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(0, 106, 93, 0.8);
+    background:  #250083;
     z-index: 9996;
   }
 }
