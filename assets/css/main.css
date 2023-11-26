@@ -16,7 +16,10 @@
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "Poppins", sans-serif;
 }
-
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
 /* Colors */
 :root {
   --color-default: #222222;
@@ -606,6 +609,18 @@ section {
 /*--------------------------------------------------------------
 # About Us Section
 --------------------------------------------------------------*/
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1060;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+}
 .dep-facilities-bg {
   background: var(--color-white);
   padding: 30px 30px 0px 30px;
